@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Automatic quote generate</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<style>
+		
+		.boders{		
+			margin-bottom: 40px;
+		}
+		.jumbotron{
+			color: #353535;
+
+		}
+		
+	</style>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<div class="row ">
+			<div class="col-sm-offset-3 col-sm-6 boders"> 
+				<h1>Build a Random Quote Machine</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-offset-3 col-sm-6 boders">
+				<button class="btn btn-success btn-lg col-sm-offset-1 col-sm-4" >"Get Quote"</button>
+				<button class="btn btn-info btn-lg twitter-share-button col-sm-offset-1 col-sm-4">Tweet Quote</button>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-sm-offset-3 col-sm-6 boders">
+				<div class="jumbotron" id="quotes">
+					<p id="quote"></p>
+					<p id="author"></p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/main_api.js"></script>
+</body>
+</html>
